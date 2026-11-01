@@ -10,7 +10,7 @@ got inspired by jarvis, and never really stopped exploring since.
 
 ### open source stuff
 
-i occasionally fix things in codebases i didn't write.
+i love fixing things in codebases i didn't write.
 
 **[Orca](https://github.com/stablyai/orca)**
 - Major Performance Improvement:
