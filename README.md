@@ -12,10 +12,11 @@ got inspired by jarvis, and never really stopped exploring since.
 
 i love fixing things in codebases i didn't write.
 
-**[Orca](https://github.com/stablyai/orca)**
-- Major Performance Improvement:
- [#35987](https://github.com/stablyai/orca/pull/35987) — co-authored the fix that stopped Orca's terminal daemon from spawning `ps` ~1,000×/min on macOS, which kept `syspolicyd` at 70–270% CPU. my measurements and diagnosis led to reading the process table in-process. *([credited by the maintainer](https://github.com/stablyai/orca/pull/35987#issuecomment-6506406272))*
-- Bug fixes: [#28317](https://github.com/stablyai/orca/pull/28317), [#33580](https://github.com/stablyai/orca/pull/33580), [#34403](https://github.com/stablyai/orca/pull/34403), [#33656](https://github.com/stablyai/orca/pull/33656) 
+### [Orca](https://github.com/stablyai/orca)
+- **Performance:** My diagnosis in [#35257](https://github.com/stablyai/orca/pull/35257) led to [#35987](https://github.com/stablyai/orca/pull/35987). It stopped the terminal daemon from spawning `ps` about 1,000 times a minute on macOS, which had kept `syspolicyd` at 70–270% CPU. ([credited by the maintainer](https://github.com/stablyai/orca/pull/35987#issuecomment-6506406272))
+- **Authored:** [#34403](https://github.com/stablyai/orca/pull/34403), [#33580](https://github.com/stablyai/orca/pull/33580), [#28317](https://github.com/stablyai/orca/pull/28317)
+- **Co-authored:** [#37665](https://github.com/stablyai/orca/pull/37665), [#36031](https://github.com/stablyai/orca/pull/36031), [#33656](https://github.com/stablyai/orca/pull/33656)
+- **Diagnosis credited:** [#34675](https://github.com/stablyai/orca/pull/34675) ([credit](https://github.com/stablyai/orca/pull/34675#issuecomment-6463078044))
 
-**[Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)**
-- [#6902](https://github.com/OrchestratorInc/agent-orchestrator/pull/6902) — enabled Claude Code's to-do tools in chat sessions.
+### [Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator)
+- [#6902](https://github.com/OrchestratorInc/agent-orchestrator/pull/6902): Enabled Claude Code's to-do tools in Claude chat sessions.
