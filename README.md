@@ -8,9 +8,7 @@ i'm currently exploring scalable backend architectures, system design, ai and cl
 my interest in software started back in 9th grade after watching *iron man* —
 got inspired by jarvis, and never really stopped exploring since.
 
-**open source stuff**
-
-i love fixing things in codebases i didn't write.
+**open source stuff**:
 
 - [Orca](https://github.com/stablyai/orca/pulls?q=is%3Apr+is%3Amerged+involves%3Athefrikidude)
 - [Agent Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator/pulls?q=is%3Apr+is%3Amerged+involves%3Athefrikidude)
